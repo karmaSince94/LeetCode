@@ -31,8 +31,6 @@ public class NextGreatestLetter {
 		
 		// BinarySearch
 		
-		
-		
 		int start = 0;
 		int end = letters.length-1;
 		

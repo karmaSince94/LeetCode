@@ -8,18 +8,19 @@ public class Palindrome {
 	}
 	
 	public boolean isPalindrome(int x) {
-        int temp = 0;
-        int rem = 0;
-        while(x != 0) {
-        	rem = x % 10;
-        	x = x / 10;
-        	temp = (temp*10) + rem; 
-        			
+		int rem, temp = 0;
+        int num = x;
+
+        while(x > 0){
+            rem = x % 10;
+            temp = (temp*10) + rem;
+            x = x/10;
         }
-        if(temp == x)
-        	return true;
-        else
-        	return false;
+
+        if(num == temp)
+            return true;
+        else 
+            return false;
         			
     }
 
