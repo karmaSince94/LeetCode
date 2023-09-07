@@ -1,3 +1,7 @@
+package com.vinay.practice.lc;
+
+import java.util.HashSet;
+
 class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> obj = new HashSet<Integer>();
