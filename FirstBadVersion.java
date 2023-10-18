@@ -6,6 +6,8 @@ package com.vinay.practice.lc;
 
 // https://leetcode.com/problems/first-bad-version/submissions/
 
+
+/*
 class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {
         int start = 1;
@@ -24,3 +26,5 @@ class FirstBadVersion extends VersionControl {
 
     }
 }
+
+*/

@@ -12,16 +12,19 @@ package com.vinay.practice.lc;
 
 // https://leetcode.com/problems/guess-number-higher-or-lower/submissions/
 
+/* 
 class GuessNumber {
     public int guessNumber(int n) {
-        /*
+        
+        //O(n) starts
         for(int i=0; i<n; i++){
             if(guess(i) == 0){
                 return i;
             }
         }
         return n;
-        */
+        //  O(n) ends
+        
 
         int start = 0;
         int end = n-1;
@@ -41,4 +44,6 @@ class GuessNumber {
 
     }
 }
+
+*/
 
